@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F6FA">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@drawable/header_background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Buildings"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="🔍  Enter building name..."
+            android:textColor="#6B7280"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/search_background" />
+
+    </LinearLayout>
+
+    <!-- Main Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textColor="#1E1E1E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Library -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="18dp"
+            android:padding="16dp"
+            android:background="@drawable/card_background"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="📚"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="#EEF0FF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Library Section"
+                android:textColor="#1E1E1E"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginStart="18dp" />
+
+        </LinearLayout>
+
+        <!-- Science -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="14dp"
+            android:padding="16dp"
+            android:background="@drawable/card_background"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="🧪"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="#EEF0FF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Science Block"
+                android:textColor="#1E1E1E"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginStart="18dp" />
+
+        </LinearLayout>
+
+        <!-- Admin -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="14dp"
+            android:padding="16dp"
+            android:background="@drawable/card_background"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="🏢"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="#EEF0FF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin Building"
+                android:textColor="#1E1E1E"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginStart="18dp" />
+
+        </LinearLayout>
+
+        <!-- Student Center -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="14dp"
+            android:padding="16dp"
+            android:background="@drawable/card_background"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="🎓"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="#EEF0FF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Center"
+                android:textColor="#1E1E1E"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginStart="18dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Bottom Navigation -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:elevation="10dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="🏠\nHome"
+            android:textColor="#6B7280"
+            android:gravity="center"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="🔍\nSearch"
+            android:textColor="#5B4BDB"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="🗺️\nMap"
+            android:textColor="#6B7280"
+            android:gravity="center"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="⚙️\nSettings"
+            android:textColor="#6B7280"
+            android:gravity="center"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

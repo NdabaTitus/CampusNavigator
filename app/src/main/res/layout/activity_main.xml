@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F6FA">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="#5B4BDB">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Campus Navigator"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to MSA Campus"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="36dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find buildings, offices, and facilities easily."
+            android:textColor="#EDEBFF"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Search Bar -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🔍  Search for a building..."
+            android:textColor="#6B7280"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/search_background" />
+
+    </LinearLayout>
+
+    <!-- Action Cards -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Map Card -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="🗺️   View Campus Map"
+            android:textColor="#1E1E1E"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            android:background="@drawable/card_background"
+            android:elevation="5dp" />
+
+        <!-- Emergency Card -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="🚨   Emergency Locations"
+            android:textColor="#1E1E1E"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/card_background"
+            android:elevation="5dp" />
+
+        <!-- Accessibility Card -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="♿   Accessible Routes"
+            android:textColor="#1E1E1E"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/card_background"
+            android:elevation="5dp" />
+
+    </LinearLayout>
+
+    <!-- Bottom Navigation -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:elevation="10dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="🏠\nHome"
+            android:textColor="#5B4BDB"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="🔍\nSearch"
+            android:textColor="#6B7280"
+            android:gravity="center"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="🗺️\nMap"
+            android:textColor="#6B7280"
+            android:gravity="center"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="⚙️\nSettings"
+            android:textColor="#6B7280"
+            android:gravity="center"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
